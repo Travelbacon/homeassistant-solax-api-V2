@@ -13,7 +13,7 @@ This Home Assistant integration fetches data from the SolaX Cloud using the offi
   
 ### Requirements:
 
-- **Inverter Serial Number:** Can be found on the [Solax Cloud](www.solaxcloud.com). The serial number of the communication dongle is needed.
+- **Inverter Serial Number:** Can be found on the [Solax Cloud](www.solaxcloud.com). The serial number of the communication dongle is needed and can be found under the Registration number.
 - **Token ID:** [Generate here](https://www.solaxcloud.com/#/api)
 
 ### Installation:
@@ -21,6 +21,8 @@ This Home Assistant integration fetches data from the SolaX Cloud using the offi
 1. Edit the `secrets.yaml` file (refer to `secrets.yaml.sample` for reference).
 2. Create a `rest` directory in the configuration directory (`config/`).
 3. Update the configuration file (refer to `configuration.yaml.sample`).
+4. Optinally change the URL from https://global.solaxcloud.com to the URL mentioned int the Solax App. Note that the website of solaxgloud displays global.solaxcloud.com
+5. Change `scan_interval` to 10 seconds for more realtime communication. Note that the setting Secondreporting under settings in the app must be enabled.
 
 ### Additional Notes:
 
