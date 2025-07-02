@@ -1,4 +1,9 @@
-**SolaX cloud for Home assistant**
+### Please consider this first
+I personanlly would advise to use the [SolaX Power](https://www.home-assistant.io/integrations/solax) integration
+This works via your local network. The password for the the local webserver can be found under **Backup password** in the [Solax Cloud](www.solaxcloud.com) under WiFi dongle.
+
+
+### SolaX cloud for Home assistant
 *Based on version 2 of the API*
 
 ### SolaX Cloud Integration for Home Assistant (Based on API V2)
@@ -23,6 +28,12 @@ This Home Assistant integration fetches data from the SolaX Cloud using the offi
 3. Update the configuration file (refer to `configuration.yaml.sample`).
 4. Optinally change the URL from https://global.solaxcloud.com to the URL mentioned int the Solax App. Note that the website of solaxgloud displays global.solaxcloud.com
 5. Change `scan_interval` to 10 seconds for more realtime communication. Note that the setting Secondreporting under settings in the app must be enabled.
+
+### Adding data to Energy
+Add the following sensors to the energy settings.
+- The **Solax grid energy import total** sensor (in kWh) for the Grid Consumption.
+- The **Solax grid ehergy export total** for the Return to grid, for example, the solar panel energy you do not consume and return to the grid instead.
+- The **Solax yield energy total** for the Solar production
 
 ### Additional Notes:
 
