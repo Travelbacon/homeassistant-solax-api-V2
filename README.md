@@ -1,6 +1,6 @@
 ### Please consider this first
-I personanlly would advise to use the [SolaX Power](https://www.home-assistant.io/integrations/solax) integration
-This works via your local network. The password for the the local webserver can be found under **Backup password** in the [Solax Cloud](www.solaxcloud.com) under WiFi dongle.
+I personally would advise using the [SolaX Power](https://www.home-assistant.io/integrations/solax) integration
+This works via your local network. The password for the local webserver can be found under **Backup password** in the [Solax Cloud](www.solaxcloud.com) under WiFi dongle.
 
 
 ### SolaX cloud for Home assistant
