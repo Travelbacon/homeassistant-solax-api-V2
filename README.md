@@ -1,6 +1,7 @@
 ### Please consider this first
-I personally would advise using the [SolaX Power](https://www.home-assistant.io/integrations/solax) integration
+For local network connection there is the [SolaX Power](https://www.home-assistant.io/integrations/solax) integration.
 This works via your local network. The password for the local webserver can be found under **Backup password** in the [Solax Cloud](www.solaxcloud.com) under WiFi dongle.
+Polling frequency remains at 5 minutes max, and it has no extra data and calculations from the cloud. For example the sum of total power from the arrays of your solar pannels.
 
 
 ### SolaX cloud for Home assistant
