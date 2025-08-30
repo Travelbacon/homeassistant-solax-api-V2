@@ -1,8 +1,10 @@
 ### Please consider this first
+When using Solax energy metering to monitor your household consumption, please note that the Solax Cloud records data in 5-minute intervals. As a result, there may be small discrepancies between the values shown in the Solax Cloud and the readings from your official electricity meter regarding consumption from and to the grid. However, the solar panel production data is always accurate.
+If precise consumption data is required, we recommend using a P1 meter to read the electricity meter directly.
+
 For local network connection there is the [SolaX Power](https://www.home-assistant.io/integrations/solax) integration.
 This works via your local network. The password for the local webserver can be found under **Backup password** in the [Solax Cloud](www.solaxcloud.com) under WiFi dongle.
 Polling frequency remains at 5 minutes max, and it has no extra data and calculations from the cloud. For example the sum of total power from the arrays of your solar pannels.
-
 
 ### SolaX cloud for Home assistant
 *Based on version 2 of the API*
