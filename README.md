@@ -1,6 +1,6 @@
 ### Please consider this first
 When using Solax energy metering to monitor your household consumption, please note that the Solax Cloud records data in 5-minute intervals. As a result, there may be small discrepancies between the values shown in the Solax Cloud and the readings from your official electricity meter regarding consumption from and to the grid. However, the solar panel production data is always accurate.
-If precise consumption data is required, we recommend using a P1 meter to read the electricity meter directly.
+If precise consumption data is required, use a P1 meter to read the electricity meter directly.
 
 For realtime reading of data. Consider using the [Modbus TCP](https://github.com/wills106/homeassistant-solax-modbus) option. This is not an out of the box option and requires some technical skills.
 
